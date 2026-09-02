@@ -212,6 +212,5 @@ else:
 # Case-insensitive check (better version)
 if check_char.lower() in cleaned_name.lower():
     print(f" (Case-insensitive: '{check_char}' found)")
-
-
+   
 
