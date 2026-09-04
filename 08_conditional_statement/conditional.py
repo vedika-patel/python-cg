@@ -137,5 +137,16 @@ if age >= 18:
         print("senior citizen")
     else:
         print("not a senior citizen")
-      
+# 20. Nested - non-zero check
+
+num = int(input("Enter a number: "))
+
+if num != 0:
+    if num > 0:
+        print("Positive and non-zero")
+    else:
+        print("Negative and non-zero")
+else:
+    print("Zero")       
+                     
         
