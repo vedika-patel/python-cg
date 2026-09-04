@@ -137,4 +137,5 @@ if age >= 18:
         print("senior citizen")
     else:
         print("not a senior citizen")
+      
         
