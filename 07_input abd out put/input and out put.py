@@ -1,0 +1,27 @@
+
+name=input("enter your name:")
+print(f"my name is {name}")
+age=input("enter your age:")
+print(f"my age is {age}")
+print(type(input(age)))
+#type of input is always string so we need to convert it into int or float if we want to perform any mathematical operation on it.
+first_name,last_name=input("enter your first name and last name:").split()
+print(f"my first name is {first_name} and my last name is {last_name}")
+name=input("enter your name:")
+city=input("enter your city:")
+collage=input("enter your college name:")
+print(f"my name is {name}, I live in {city}, and I study at {collage}.")
+#python program to take multiple inputs from user in one line and store them in a list
+numbers=input("enter multiple numbers separated by space:").split()
+print(f"the numbers you entered are: {numbers}")
+print(int("25"))
+print(float("25.5"))
+print(str(100))
+a=int("78")
+print(type(a))
+b=float("78.5")
+print(type(b))
+a = input()
+b = input()
+
+print(a + b)
