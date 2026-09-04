@@ -147,6 +147,41 @@ if num != 0:
     else:
         print("Negative and non-zero")
 else:
-    print("Zero")       
+    print("Zero") 
+# 21. Multiple Conditions using AND
+
+age = int(input("Enter age: "))
+marks = int(input("Enter marks: "))
+
+if age >= 18 and marks >= 40:
+    print("Eligible")
+else:
+    print("Not Eligible")
+
+num = int(input("enter your number:"))
+if num < 10 or num > 100:
+    print("special")
+else:
+    print("not special")
+# 23. Age and has_id
+
+age = int(input("Enter age: "))
+has_id = input("Do you have ID? (True/False): ").lower() == "true"
+# or you can take as: has_id = True / False directly
+
+if age >= 18 and has_id == True:
+    print("Allowed")
+else:
+    print("Not Allowed")
+# 24. Both > 10
+
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+
+if num1 > 10 and num2 > 10:
+    print("Both are greater than 10")
+else:
+    print("Condition not satisfied")
+            
                      
         
