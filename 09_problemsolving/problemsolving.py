@@ -94,7 +94,7 @@
 #     print("grade e")
 # else:
 #     print("fail")
-# # #question:10
+# #question:10
 # age=int(input("enter your age:"))
 # if age<0 or age>120:
 #     print("invalid")
@@ -119,7 +119,7 @@
 # else:
 #     print("Special character")
 # question:13
-# #Take a single character input from the user
+#Take a single character input from the user
 # char = input("enter the char:")
 
 # # Check if the input is exactly one alphabetic character
@@ -156,8 +156,14 @@
 #     loss_pasnger=loss/cost_price*100
 #     print(f"loss ={loss_pasnger} %")
 # else:
-#     print("envalid") 
-# question:16
+#     print("envalid")
+# 16question panding 
+# question:17
+first_number=float(input("enter the first number:"))
+second_number=float(input("enter the second number:"))
+
+
+
   
 
 
