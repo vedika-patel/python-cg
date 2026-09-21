@@ -80,6 +80,73 @@ print(f"sum of the odd number is:{sum}")
 n=int(input("enter n:"))
 for i in range(1,n+1):
     print(f"{n}x{i}={n*i}")
+Q-20:
+num=int(input("enter num:"))
+fact=1
+for i in range(1,num+1):
+     fact=fact*i
+     print(fact)
+Q-21:
+str=input("enter your string:")
+for char in str:
+    print(char)
+Q-22:
+str=input("enter your string:")
+for char in str:
+    print(char,end=" ")
+Q-23:
+str=input("enter your string:")
+count=0
+for char in str:
+    count=count+1
+    print("char",count)
+Q-24:
+str=input("enter your string:")
+count=0
+for char in str:
+    if char == "a":
+        count=count+1
+print(count)
+Q-25:
+str=input("enter your string:")
+count=0
+for char in str:
+    if  "A"<= char <="Z":
+        count=count+1
+print(f"uppercase chars counting:{count}")
+Q-26:
+for i in range(3):
+    for j in range(4):
+        print("*",end="")
+    print() 
+Q-27:
+for row in range(4):
+    for coulam in range(5):
+        print("*",end="")
+    print() 
+Q-28:
+for row in range(1,6):
+    for coulam in range(1,row+1):
+        print("*",end="")
+    print()
+Q-29:
+for row in range(1,6):
+    for colum in range(1,row+1):
+        print(colum,end="")
+    print() 
+Q-30:
+for i in range(1,6):
+    i=i*5
+    print(f"multipication result:{i}")
+num=int(input("enter your number:"))
+for i in range(num+1):
+    for j in range(1,i+1):
+        print(j,end="")
+    print()    
+                   
+
+   
+    
    
 
 
