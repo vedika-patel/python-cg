@@ -129,7 +129,66 @@ while i<=n:
     result *= i
     i+=1
 print(result)        
-        
+#Q-21
+text=input("enter your string:")
+i=0
+while i<len(text):
+    print(text[i])
+    i+=1
+#Q-22
+text=input("enter your string:")
+i=0
+while i<len(text):
+    print(text[i],end=" ")
+    i+=1
+#Q-23
+text=input("enter your string:")
+count=0
+i=0
+while i<len(text):
+    count+=1
+    i+=1
+print("count the char:",count)
+#Q-24
+text=input("enter your string:")
+count=0
+i=0
+while i<len(text):
+    if text[i] == "a":
+        count+=1
+    i+=1    
+print("count the number of a in string:",count)
+# Q-25
+text=input("enter your string:")
+count=0
+i=0
+while i<len(text):
+    if text[i].isupper():
+        count+=1
+    i+=1    
+print("numbers of upper char in staring:",count)
+#Q-26
+i=1
+while i<=3:
+    j=1
+    while j<=4:
+        print("*",end="")
+        j+=1
+    print()    
+    i+=1 
+#Q-27
+i=1
+while i<=4:
+    j=1
+    while j<=4:
+        print("*",end="")
+        j+=1
+    print()    
+    i+=1    
+# #Q-28
+           
+
+
 
    
                 
