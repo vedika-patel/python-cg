@@ -180,8 +180,131 @@ match member:
     case 3|4:
         print("Premium Membership") 
     case _:
-        print("Invalid membership")  
-# #Q-16
+        print("Invalid membership") 
+#Topic-5 
+#Q-16
+select=input("user selected:")
+chioce=int(input("enter the choice:"))
+match select:
+    case "student":
+        match chioce:
+              case 1:
+                  print("View Courses")
+              case 2:
+                  print("View Marks") 
+              case 3:
+                print("View Attendance")
+              case _:
+                print("Invalid choice")  
+    case "teacher":
+        match chioce:
+            case 1:
+                print("View student")
+            case 2:
+                print("enter Marks") 
+            case 3:
+                print("View Attendance")
+            case _:
+                print("Invalid choice")     
+    case _:
+        print("Invalid selection") 
+#Q-17
+account=int(input("Enter the account type:"))
+opration=int(input("Enter the operation:"))
+match account:
+    case 1:
+        match opration:
+            case 1:
+                print("View Balance selected")
+            case 2:
+                print("Withdraw Money selected") 
+            case 3:
+                print("Deposit Money selected")
+            case _:
+                print("Invalid operation")  
+    case 2:
+        match opration:
+            case 1:
+                print("View Balance")
+            case 2:
+                print("Withdraw Money") 
+            case 3:
+                print("Deposit Money")
+            case _:
+                print("Invalid operation")  
+    case _:
+        print("Invalid account type")
+#Q-18
+category = int(input("Enter category: "))
+# 1 -> Electronics, 2 -> Clothing
+
+match category:
+    case 1:
+        print("Category: Electronics")
+        product = int(input("Enter product: "))
+        # 1 -> Mobile, 2 -> Laptop, 3 -> Headphones
+        
+        match product:
+            case 1:
+                print("You selected: Mobile")
+            case 2:
+                print("You selected: Laptop")
+            case 3:
+                print("You selected: Headphones")
+            case _:
+                print("Invalid product selection for Electronics")
+    
+    case 2:
+        print("Category: Clothing")
+        product = int(input("Enter product: "))
+        # 1 -> Shirt, 2 -> Jeans, 3 -> Shoes
+        
+        match product:
+            case 1:
+                print("You selected: Shirt")
+            case 2:
+                print("You selected: Jeans")
+            case 3:
+                print("You selected: Shoes")
+            case _:
+                print("Invalid product selection for Clothing")
+    
+    case _:
+        print("Invalid category")
+#Q-19
+category = int(input("Enter category: "))
+food = int(input("Enter food: "))
+
+match category:
+    case 1: # Vegetarian
+        match food:
+            case 1:
+                print("Paneer Selected")
+            case 2:
+                print("Dal Selected")
+            case 3:
+                print("Veg Biryani Selected")
+            case _:
+                print("Invalid Food")
+    case 2: # Non-Vegetarian
+        match food:
+            case 1:
+                print("Chicken Biryani Selected")
+            case 2:
+                print("Chicken Curry Selected")
+            case 3:
+                print("Fish Fry Selected")
+            case _:
+                print("Invalid Food")
+    case _:
+        print("Invalid Category")
+                                                
+
+                  
+        
+
+   
+
             
    
                                                          
