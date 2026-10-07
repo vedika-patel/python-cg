@@ -298,6 +298,27 @@ match category:
                 print("Invalid Food")
     case _:
         print("Invalid Category")
+Q-20
+a=int(input("Enter the first number: "))
+b=int(input("Enter the second number: "))
+operation=input("Enter the operation : ")
+match operation:
+    case "+":
+        print(f"Result: {a + b}")
+    case "-":
+        print(f"Result: {a - b}")
+    case "*":
+        print(f"Result: {a * b}")
+    case "/":
+        if b != 0:
+            print(f"Result: {a / b}")
+        else:
+            print("Error: Division by zero")
+    case _:
+        print("Invalid operation")
+
+
+
                                                 
 
                   
