@@ -354,9 +354,72 @@ match choice:
                 print("Grams to Kilograms")
                 val=int(input("enter the value:"))
                 val=val/1000
-                print(val,"Kilograms")              
-                       
-            
+                print(val,"Kilograms") 
+#Q-23
+choice=int(input("enter the choice:"))
+match choice:
+    case 1:#Savings
+        acount=int(input("enter the account type:")) 
+        amount=int(input("enter the smount:")) 
+        if amount>=0:
+            print("Savings Account")
+            print("Withdrawal Request Accepted")
+    case 2:#current
+         acount=int(input("enter the account type:")) 
+         amount=int(input("enter the smount:"))
+         if amount>=0:
+                     print("invalid amount")
+#Q-24
+menu=int(input("enter the menu:"))
+print("1.Start Exam")
+print("2.View Result")
+print("3.Exit")
+match menu:
+    case 1:
+        choice=int(input("enter the choice:"))
+        age=int(input("enter the age:"))
+        if age>=18:
+           print("You can start the exam")
+    case 2:
+        choice=int(input("enter the choice:"))
+        age=int(input("enter the age:"))
+        if age>=18:
+                   print("view the result")
+    case 3: 
+        choice=int(input("enter the choice:"))
+        age=int(input("enter the age:")) 
+        if age<=10:
+                 print("exit") 
+#Q-25
+print("1 → Regular")
+print("2 → Premium")
+print("3 → VIP")
+
+choice = int(input("Select ticket type: "))
+
+match choice:
+    case 1:
+        ticket = "Regular"
+    case 2:
+        ticket = "Premium"
+    case 3:
+        ticket = "VIP"
+    case _:
+        ticket = "Invalid choice"
+
+if ticket == "Invalid choice":
+    print(ticket)
+else:
+    age = int(input("Enter your age: "))
+
+    if age < 5:
+        print("Free Entry")
+    else:
+        print(ticket)
+#Q-26
+
+
+
 
 
 
