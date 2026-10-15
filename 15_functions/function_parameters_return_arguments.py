@@ -53,3 +53,18 @@ def get_min_max(a, b):
 smaller, larger = get_min_max(15, 7)
 print("Smaller:", smaller)
 print("Larger:", larger)
+#Intermediate
+#Q-11
+def calculate(a, b):
+    total = a + b
+    difference = a - b
+    product = a * b
+    quotient = a / b
+    return total, difference, product, quotient
+result = calculate(10, 2)
+print("Result tuple:", result)
+total, diff, prod, quot = calculate(10, 2)
+print("Sum:", total)
+print("Difference:", diff)
+print("Product:", prod)
+print("Quotient:", quot)
