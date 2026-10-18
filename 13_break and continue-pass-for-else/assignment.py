@@ -97,6 +97,19 @@ print(count)
 ## Q20. Completion After `break`
 #output:1 2 outside loop
 ## Q21. Empty Iterable
+##C2. Write a Program --- Medium
+##Q22. Search for a Number
+# # Q22. Search for a Number
+# num_list = [12, 45, 78, 90]
+# target = int(input("Enter the number: "))
+# for item in num_list:
+#     if item == target:
+#         print("Found")
+#         break
+# else:
+#     print("Not found")
+
+
 
 
 

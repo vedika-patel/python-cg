@@ -68,3 +68,78 @@ print("Sum:", total)
 print("Difference:", diff)
 print("Product:", prod)
 print("Quotient:", quot)
+#Q-12
+def count_digits(number):
+    return number>=0
+result=count_digits(0)
+print(result)
+#Q-13
+def classify_number(number):
+    if number>0:
+        print("positive")
+    elif number==0:
+        print("zero")
+    else:
+        print("negative")
+result=classify_number(0) 
+#Q-14
+def  calculate_total(price, quantity=1):
+    return price*quantity
+result=calculate_total(200)
+print(result)
+#Q-15
+def create_email(username, domain="example.com"):
+    return username,domain
+result=create_email("vedika")
+print(result)
+#Q-16
+def format_name(first, last, uppercase=False):
+    full_name = f"{first} {last}"
+    if uppercase:
+        return full_name.upper()
+    return full_name
+print(format_name("John", "Doe"))
+print(format_name("John", "Doe", True))
+#Q-17
+def percentage(marks, total=100):
+    return (marks/total)*100
+result=percentage(marks=85)
+print(result)
+#Q-18
+def convert_minutes(minutes, seconds_per_minute=60):
+    return minutes * seconds_per_minute
+print(convert_minutes(5,60))
+print(convert_minutes(5))
+#Q-19
+def student_details(name, age, city):
+    print(name)
+    print(age)
+    print(city)
+student_details(name="vedika",age="17",city="hmt")   
+#Q-20
+def bill(item, quantity=1, price=100):
+    print("Item",item,"quantity",quantity,"price",price)
+bill("lipbom",price=1000) 
+#Q-21
+def analyze_number(number):
+    if number < 0:
+        absolute_val = -number
+    else:
+        absolute_val = number
+    is_even = (number % 2 == 0)
+    if number == 0:
+        digit_count = 1
+    else:
+        digit_count = 0
+        temp = absolute_val
+        while temp > 0:
+            digit_count += 1
+            temp //= 10
+    return absolute_val, is_even, digit_count
+print(analyze_number(-1234))
+print(analyze_number(0))     
+print(analyze_number(48))
+#Q-22
+
+
+
