@@ -139,7 +139,81 @@ def analyze_number(number):
 print(analyze_number(-1234))
 print(analyze_number(0))     
 print(analyze_number(48))
-#Q-22
+Q-22
+def calculate_stats(a, b, c):
+    smallest=min(a,b,c)
+    largest=max(a,b,c)
+    total_sum=a+b+c
+    return smallest,largest,total_sum
+smllest,largest,total=calculate_stats(95,5,25)
+print("smllest",smllest)
+print("lergest",largest)
+print("sum",total)
+#Q-23
+def make_sentence(subject, verb, object):
+    return f"{subject} {verb} {object}."
+result = make_sentence(object="Python", verb="loves", subject="CodingGita")
+print(result)
+#Q-24
+def apply_discount(price, discount=0):
+    discount_amount = price * (discount / 100)
+    final_price = price - discount_amount
+    return final_price
+price_with_discount = apply_discount(200, 15)
+print("Discounted Price:", price_with_discount)
+price_without_discount = apply_discount(200)
+print("Regular Price:", price_without_discount)
+#Q-25
+def calculate_pay(hours, rate=200, bonus=0):
+    return hours * rate + bonus
+result=calculate_pay(4,500,bonus=100)
+print(result)
+#Q-26
+def get_coordinates(x=0, y=0):
+    return x,y
+result=get_coordinates(45,90)
+print(result)
+#Q-27
+def compare(a, b):
+    if a > b:
+        relation = "A is greater"
+        diff = a - b
+    elif b > a:
+        relation = "B is greater"
+        diff = b - a
+    else:
+        relation = "Equal"
+        diff = 0
+    return relation, diff
+result_relation, result_diff = compare(15, 25)
+print("Relation:", result_relation)
+print("Absolute Difference:", result_diff)
+#Q-28
+def convert_temperature(value, scale="C"):
+    if scale=="C":
+        return (value*9/5)+32
+    else:
+        return (value-32)*5/9
+print(convert_temperature(25))
+print(convert_temperature(25,"C"))
+print(convert_temperature(77,"F"))
+#Q-29
+def calculate_result(marks, passing_marks=35):
+    if marks>35 and passing_marks:
+        print("pass")
+    else:
+        print("fail")
+calculate_result(60,35)    
+#Q-30
+def order_summary(item, quantity=1, price=100, delivery_fee=40):
+    total_cost = (quantity * price) + delivery_fee
+    return total_cost
+print(order_summary("Notebook"))
+print(order_summary("Notebook", delivery_fee=20)) 
+
+
+
+
 
 
 
