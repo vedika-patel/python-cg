@@ -43,6 +43,8 @@
 #     rev = rev * 10 + n % 10
 #     n //= 10
 # print(sign * rev)
+##Q-25
+
 
 
 
