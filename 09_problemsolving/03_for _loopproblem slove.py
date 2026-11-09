@@ -51,23 +51,25 @@
 #     elif marks<35:
 #         print("fail")           
 # #Q-3
-sen=input("enter the sentence:")
-vowel=2
-consonant=1
-Digit=3
-special_characture=4
-if vowel>consonant and vowel>Digit and vowel>special_characture:
-    print("vowel",vowel)
-elif consonant>vowel and consonant>Digit and consonant>special_characture:
-    print("consonant",consonant)
-elif Digit>vowel and Digit>consonant and Digit>special_characture:
-    print("Digits",Digit)
-elif special_characture>vowel and special_characture>consonant and special_characture>Digit:
-    print("special characture",special_characture)
-else:
-    print("Tie")    
-        
-        
+# sen=input("enter the sentence:")
+# vowel=2
+# consonant=1
+# Digit=3
+# special_characture=4
+# if vowel>consonant and vowel>Digit and vowel>special_characture:
+#     print("vowel",vowel)
+# elif consonant>vowel and consonant>Digit and consonant>special_characture:
+#     print("consonant",consonant)
+# elif Digit>vowel and Digit>consonant and Digit>special_characture:
+#     print("Digits",Digit)
+# elif special_characture>vowel and special_characture>consonant and special_characture>Digit:
+#     print("special characture",special_characture)
+# else:
+#     print("Tie")    
+##Q-4
+
+
+
        
 
 
