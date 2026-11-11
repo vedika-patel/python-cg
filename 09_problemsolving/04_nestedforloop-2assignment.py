@@ -58,3 +58,85 @@ for i in range(N):
     for j in range(N):
         print(j % 2, end="")
     print()  
+#Q-11
+row=int(input("enter the row:"))
+column=int(input("enter the column:"))
+for i in range(1,row+1):
+    for j in range(1,column+1):
+        if j%2==0:
+            print(j,end=" ")
+    print() 
+#Q-12
+N=int(input("enter the N:"))
+for i in range(1,N+1):
+    for j in range(1,N+1):
+        if j%2!=0:
+            print(j,end=" ")
+    print()
+#Q-13
+for i in range(1,5):
+    for j in range(1,5):
+        if (i+j)%2==0:
+            print("E",end=" ")
+        else:
+            print("O",end=" ")
+    print()
+#Q-14
+N=int(input("enter the N:"))
+for i in range(1,N+1):
+    for j in range(1,N+1):
+        if i==j:
+            print("Same",end=" ")
+        else:
+            print("Different",end=" ")
+    print()
+#Q-15
+N=int(input("enter the N:"))
+for i in range(1,N+1):
+    for j in range(1,N+1):
+        if i==j:
+            print("1",end=" ")
+        else:
+            print("0",end=" ")
+    print()
+#Q-16
+for i in range(1,6):
+    for j in range(1,6):
+        if i%j==0:
+            print("X",end=" ")
+        else:
+            print("-",end=" ")
+    print()
+#Q-17
+N=int(input("enter the N:"))
+for i in range(1,N+1):
+    for j in range(1,N+1):
+        if j%i==0:
+            print(j,end=" ")
+    print()
+#Q-18
+N=int(input("enter the N:"))
+for i in range(1,N+1):
+    for j in range(1,N+1):
+        if i+j>N:
+            print(i,j)
+#Q-19
+N=int(input("enter the N:"))
+for i in range(1,N+1):
+    for j in range(1,N+1):
+        if i*j%2==0:
+            print(i,j)
+##Q-20
+N=int(input("enter the N:"))
+for i in range(1,N+1):
+    for j in range(1,N+1):
+        if i==j:
+            print("SPECIAL",end="")
+        elif i+j==N:
+            print("PAIR",end="")
+        else:
+            print("NORMAL",end="")
+        print()    
+
+
+
