@@ -1,142 +1,163 @@
-#Q-1
-for i in range(1,4):
-    for j in range(1,4):
-        print(i,j)
-#Q-2
-n=int(input("enter the number:"))
-for i in range(1,n+1):
-    for j in range(1,n+1):
-        print(i,"x",j,"=",i*j)
-#Q-3
-str=input("enter the string:")
-for i in range(1,4):
-    for j in range(1,5):
-        print(str,end="")
-    print()
-#Q-4
-row=int(input("enter the row:"))
-column=int(input("enter the column:"))
-for i in range(0,row):
-    for j in range(0,column):
-        print((i,j),end=" ")
-    print()
-#Q-5
-n=int(input("enter the row:"))
-for i in range(1,n+1):
-    for j in range(1,n+1):
-        print(i,end="")
-    print()
-#Q-6
-n=int(input("enter the row:"))
-for i in range(1,n+1):
-    for j in range(1,n+1):
-        print(j,end="")
-    print()
-#Q-7
-n=int(input("enter the row:"))
-for i in range(1,n+1):
-    for j in range(1,i+1):
-        print(j,end="")
-    print()
-#Q-8
-n=int(input("enter the row:"))
-for i in range(n+1,1,-1):
-    for j in range(1,i):
-        print(j,end="")
-    print()
-#Q-9
-row=int(input("enter the row:"))
-column=int(input("enter the column:"))
-for i in range(1,row+1):
-    for j in range(1,column+1):
-        print("*",end="")
-    print()
-##Q-10
-N = int(input("Enter N: "))
+# #Q-1
+# for i in range(1,4):
+#     for j in range(1,4):
+#         print(i,j)
+# #Q-2
+# n=int(input("enter the number:"))
+# for i in range(1,n+1):
+#     for j in range(1,n+1):
+#         print(i,"x",j,"=",i*j)
+# #Q-3
+# str=input("enter the string:")
+# for i in range(1,4):
+#     for j in range(1,5):
+#         print(str,end="")
+#     print()
+# #Q-4
+# row=int(input("enter the row:"))
+# column=int(input("enter the column:"))
+# for i in range(0,row):
+#     for j in range(0,column):
+#         print((i,j),end=" ")
+#     print()
+# #Q-5
+# n=int(input("enter the row:"))
+# for i in range(1,n+1):
+#     for j in range(1,n+1):
+#         print(i,end="")
+#     print()
+# #Q-6
+# n=int(input("enter the row:"))
+# for i in range(1,n+1):
+#     for j in range(1,n+1):
+#         print(j,end="")
+#     print()
+# #Q-7
+# n=int(input("enter the row:"))
+# for i in range(1,n+1):
+#     for j in range(1,i+1):
+#         print(j,end="")
+#     print()
+# #Q-8
+# n=int(input("enter the row:"))
+# for i in range(n+1,1,-1):
+#     for j in range(1,i):
+#         print(j,end="")
+#     print()
+# #Q-9
+# row=int(input("enter the row:"))
+# column=int(input("enter the column:"))
+# for i in range(1,row+1):
+#     for j in range(1,column+1):
+#         print("*",end="")
+#     print()
+# ##Q-10
+# N = int(input("Enter N: "))
 
-for i in range(N):
-    for j in range(N):
-        print(j % 2, end="")
-    print()  
-#Q-11
-row=int(input("enter the row:"))
-column=int(input("enter the column:"))
-for i in range(1,row+1):
-    for j in range(1,column+1):
-        if j%2==0:
-            print(j,end=" ")
-    print() 
-#Q-12
-N=int(input("enter the N:"))
-for i in range(1,N+1):
-    for j in range(1,N+1):
-        if j%2!=0:
-            print(j,end=" ")
-    print()
-#Q-13
-for i in range(1,5):
-    for j in range(1,5):
-        if (i+j)%2==0:
-            print("E",end=" ")
-        else:
-            print("O",end=" ")
-    print()
-#Q-14
-N=int(input("enter the N:"))
-for i in range(1,N+1):
-    for j in range(1,N+1):
-        if i==j:
-            print("Same",end=" ")
-        else:
-            print("Different",end=" ")
-    print()
-#Q-15
-N=int(input("enter the N:"))
-for i in range(1,N+1):
-    for j in range(1,N+1):
-        if i==j:
-            print("1",end=" ")
-        else:
-            print("0",end=" ")
-    print()
-#Q-16
-for i in range(1,6):
-    for j in range(1,6):
-        if i%j==0:
-            print("X",end=" ")
-        else:
-            print("-",end=" ")
-    print()
-#Q-17
-N=int(input("enter the N:"))
-for i in range(1,N+1):
-    for j in range(1,N+1):
-        if j%i==0:
-            print(j,end=" ")
-    print()
-#Q-18
-N=int(input("enter the N:"))
-for i in range(1,N+1):
-    for j in range(1,N+1):
-        if i+j>N:
-            print(i,j)
-#Q-19
-N=int(input("enter the N:"))
-for i in range(1,N+1):
-    for j in range(1,N+1):
-        if i*j%2==0:
-            print(i,j)
-##Q-20
-N=int(input("enter the N:"))
-for i in range(1,N+1):
-    for j in range(1,N+1):
-        if i==j:
-            print("SPECIAL",end="")
-        elif i+j==N:
-            print("PAIR",end="")
-        else:
-            print("NORMAL",end="")
-        print()    
+# for i in range(N):
+#     for j in range(N):
+#         print(j % 2, end="")
+#     print()  
+# #Q-11
+# row=int(input("enter the row:"))
+# column=int(input("enter the column:"))
+# for i in range(1,row+1):
+#     for j in range(1,column+1):
+#         if j%2==0:
+#             print(j,end=" ")
+#     print() 
+# #Q-12
+# N=int(input("enter the N:"))
+# for i in range(1,N+1):
+#     for j in range(1,N+1):
+#         if j%2!=0:
+#             print(j,end=" ")
+#     print()
+# #Q-13
+# for i in range(1,5):
+#     for j in range(1,5):
+#         if (i+j)%2==0:
+#             print("E",end=" ")
+#         else:
+#             print("O",end=" ")
+#     print()
+# #Q-14
+# N=int(input("enter the N:"))
+# for i in range(1,N+1):
+#     for j in range(1,N+1):
+#         if i==j:
+#             print("Same",end=" ")
+#         else:
+#             print("Different",end=" ")
+#     print()
+# #Q-15
+# N=int(input("enter the N:"))
+# for i in range(1,N+1):
+#     for j in range(1,N+1):
+#         if i==j:
+#             print("1",end=" ")
+#         else:
+#             print("0",end=" ")
+#     print()
+# #Q-16
+# for i in range(1,6):
+#     for j in range(1,6):
+#         if i%j==0:
+#             print("X",end=" ")
+#         else:
+#             print("-",end=" ")
+#     print()
+# #Q-17
+# N=int(input("enter the N:"))
+# for i in range(1,N+1):
+#     for j in range(1,N+1):
+#         if j%i==0:
+#             print(j,end=" ")
+#     print()
+# #Q-18
+# N=int(input("enter the N:"))
+# for i in range(1,N+1):
+#     for j in range(1,N+1):
+#         if i+j>N:
+#             print(i,j)
+# #Q-19
+# N=int(input("enter the N:"))
+# for i in range(1,N+1):
+#     for j in range(1,N+1):
+#         if i*j%2==0:
+#             print(i,j)
+# ##Q-20
+# N=int(input("enter the N:"))
+# for i in range(1,N+1):
+#     for j in range(1,N+1):
+#         if i==j:
+#             print("SPECIAL",end="")
+#         elif i+j==N:
+#             print("PAIR",end="")
+#         else:
+#             print("NORMAL",end="")
+#         print()
+#  #Q-21
+# str=input("enter the string:")
+# for char in str:
+#     for i in range(1,4):
+#         print(char,end="")
+#     print()
+##Q-22
+# str=input("enter the string:")
+# for char in str:
+#     for i in range(0,3):
+#         print(char,i)
+##Q-23
+# text = input("Enter a string: ")
+# for ch1 in text:
+#     for ch2 in text:
+#         if ch1 == ch2:
+#             print(ch1, ch2, "Same")
+#         else:
+#             print(ch1, ch2, "Different")
 
+
+        
 
 
